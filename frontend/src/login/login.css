@@ -1,0 +1,80 @@
+.login{
+ height: calc(100vh - 50px);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(rgba(255,255,255,0.5), rgba(65, 91, 163, 0.685)), url("https://media.istockphoto.com/photos/login-web-form-picture-id1205116274?b=1&k=20&m=1205116274&s=170667a&w=0&h=GDOWddFhjLeMGSUGNNAKlDOEYQ_O99RroXVfcSf4c_w=");
+
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm >label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    width: 100vh;
+    border-radius: 2px;
+}
+.remember{
+display: flex;
+margin-top: 6px;
+}
+.box{
+    width: 15px;
+    height: 15px;
+}
+.loginRem{
+    margin-left: 5px;
+    color: #fff;
+}
+.loginForget{
+ margin-left: 400px;
+ color: #fff;
+}
+
+.loginRegis{
+   align-items: center;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+
+.loginBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal ;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.loginReg{
+    margin-top: 6px;
+    width: 103vh;
+    cursor: pointer;
+    background-color: teal ;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.loginBtn:disabled{
+    cursor: not-allowed;
+    background-color: #49a7a7;
+}
