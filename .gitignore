@@ -11,7 +11,7 @@
 
 # misc
 /back/.env
-/back/node_modules
+/node_modules
 /frontend/.DS_Store
 /frontend/.env.local
 /frontend/.env.development.local
